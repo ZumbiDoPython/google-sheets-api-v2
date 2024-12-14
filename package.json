@@ -1,0 +1,25 @@
+{
+  "name": "google-sheets-api",
+  "version": "1.0.0",
+  "description": "API Node.js para acessar, atualizar e adicionar dados em uma planilha do Google Sheets",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "keywords": [
+    "nodejs",
+    "google-sheets",
+    "api"
+  ],
+  "author": "Seu Nome",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "googleapis": "^118.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
